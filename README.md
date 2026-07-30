@@ -16,3 +16,7 @@ I got tired of modern editors requiring an entire WebBrowser engine and 600MB of
 ## Dependencies
 
 You only need `gcc` and `gtk3` development headers.
+
+## Building
+
+gcc -std=c11 -O2 rezzpad.c `pkg-config --cflags --libs gtk+-3.0` -o rezzpad
